@@ -20,9 +20,10 @@
 
 title: Asheville Programming Tutors 
 email: ashevilleprogrammingtutor@gmail.com
+tagline: Local tutors for residents of WNC on their programming journey
 description: >- # this means to ignore newlines until "baseurl:"
-  This site is dedicated to teaching progamming to the Asheville Community in
-  an ongoing, engaged, and mastery based way.
+  Mastery based instruction in utilizing the computer as tool for solving
+  problems in the real world.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -36,8 +37,16 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-minima: 
-  skin: dark
+header:
+  - about.md
+
+author:
+  name: Charles Lanahan
+  email: ashevilleprogrammingtutor@gmail.com
+  phone: 828.423.0277
+
+show_excerpts: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

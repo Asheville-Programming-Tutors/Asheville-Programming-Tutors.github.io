@@ -1,0 +1,11 @@
+<div class="contact">
+    Contact us today! 
+    &emsp;
+    {%- if site.author.email -%}
+    <a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    {%- endif -%}
+    &emsp;
+    {%- if site.author.phone -%}
+    <a class="u-phone" href="tel:{{ site.phone }}">{{ site.author.phone }}</a>
+    {%- endif -%}
+</div>
